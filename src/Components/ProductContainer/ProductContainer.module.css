@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+        background-image: linear-gradient(rgba(50, 50, 50, 0.025),
+                    rgba(50, 50, 50, .05));
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.preview{
+    top: 0;
+        width: 100%;
+        object-fit: contain;
+}

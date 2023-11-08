@@ -1,0 +1,36 @@
+.container{
+    text-align: left;
+    font-size: 15px;
+    padding: 5px 0;
+}
+.link{
+    font-size: 14px;
+    color: gray;
+}
+.snippet {
+    font-size: 14px;
+}
+.anchor{
+    font-size: larger;
+}
+
+@media screen and (max-width: 800px) {
+.container {
+        text-align: left;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .link {
+        font-size: 12px;
+        color: gray;
+    }
+
+    .snippet {
+        font-size: 14px;
+    }
+
+    .anchor {
+        font-size: larger;
+    }
+}

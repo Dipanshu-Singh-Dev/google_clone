@@ -1,0 +1,26 @@
+.head{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    height: 100%;
+    vertical-align: middle;
+    padding: 10px;
+    
+}
+.head:hover{
+        color: rgba(0, 0, 0, 0.767);
+    text-decoration: underline;
+}
+.foot {
+    text-decoration: none;
+color: #70757a;
+    height: 100%;
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 15px;
+
+}
+
+.foot:hover {
+    text-decoration: underline;
+    transition: all .25s;
+}

@@ -1,0 +1,42 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.modalVideo{
+    max-width: 90vw;
+    max-height: 90vh;
+    border: 0;
+    border-radius: 10px;
+}
+.container {
+    z-index: 2;
+    max-width: 90vw;
+    max-height: 90vh;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .container {
+        margin-top: 10%;
+        max-height: fit-content;
+        max-width: 90vw;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        margin-top: 10%;
+        max-height: fit-content;
+        max-width: 95vw;
+    }
+}

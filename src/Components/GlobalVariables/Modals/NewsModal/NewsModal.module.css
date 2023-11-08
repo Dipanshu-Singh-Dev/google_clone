@@ -1,0 +1,62 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.container {
+    z-index: 2;
+    width: 99vw;
+    margin: auto;
+    display: flex;
+    margin-top: 1%;
+    height: 95vh;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    text-align: center;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+}
+
+.image {
+    max-height: 100%;
+    max-width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+
+.newsContainer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content{
+        overflow-y: scroll
+    }
+@media screen and (max-width:800px) {
+    .container {
+        display: flex;
+        max-height: 95vh;
+        max-width: 95vw;
+        flex-direction: column;
+        overflow-y: scroll;
+        padding: 10px;
+    }
+.content {
+    overflow-y: hidden
+}
+    .image {
+        position:relative;
+        left: 0;
+        top: 0;
+        min-height: 60%;
+        max-width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+}

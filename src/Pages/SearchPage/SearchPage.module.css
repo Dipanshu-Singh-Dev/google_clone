@@ -1,0 +1,16 @@
+#Results{
+    width: 70vw;
+    margin-left: 12.5%;
+}
+@media screen and (max-width: 800px) {
+    #Results{
+        font-size: large;
+        width: 90vw;
+        text-align: center;
+        margin-left: 5%;
+    }
+        #Results *{
+            font-size: large;
+            
+        }
+}

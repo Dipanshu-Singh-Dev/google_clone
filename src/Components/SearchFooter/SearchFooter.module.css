@@ -1,0 +1,19 @@
+.container{
+    margin-top: auto;
+        color: #70757a;
+    padding: 5px 0;
+    background-color: #f5f1f1;
+    font-size: 14px;
+    
+}
+.top{
+    padding: 10px 10%;
+    text-align: left;
+    border-bottom: 1px solid #dadce0;
+}
+.bottom{
+    display: flex;
+    padding: 10px 10%;
+    padding-top: 0;
+    gap: 20px;
+}

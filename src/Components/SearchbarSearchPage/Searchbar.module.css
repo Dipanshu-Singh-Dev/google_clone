@@ -1,0 +1,42 @@
+.container{
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    border-radius: 50px;
+    border:1px solid lightgray;
+    gap: 10px;
+    display: flex;
+    padding: 5px 25px;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: all .25s;
+}
+.search{
+    color: gray;
+}
+.input{
+    border: none;
+    height: 100%;
+    flex-grow: 1;
+}
+.input:focus {
+    outline: none;
+}
+@media screen and (max-width: 1023px) {
+   .container{
+    width: 50%;
+   }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 70%;
+        height: 40px;
+    }
+}
+.IconButtons{
+    display: flex;
+}
