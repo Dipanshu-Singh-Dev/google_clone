@@ -42,7 +42,7 @@ const Searchpage = () => {
     setLoading(true);
   }, [type]);
   if (!search) return <p>Something went wrong</p>;
-
+  
   let searchResults =
     type === "images" ? (
       <ImagesResults />
